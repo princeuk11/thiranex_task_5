@@ -26,11 +26,4 @@ A responsive e-commerce product catalog built using HTML5, CSS3 and vanilla Java
 
 ## Deploy
 
-Upload the complete folder to GitHub Pages, Netlify, Vercel or Render static hosting.
-
-For GitHub Pages:
-1. Create a public GitHub repository.
-2. Upload all files.
-3. Go to Settings → Pages.
-4. Select the `main` branch and root folder.
-5. Save and open the generated public URL.
+pthiranextask5.vercel.app
