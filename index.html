@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Prince Store — a responsive product catalog built with HTML, CSS and JavaScript.">
+  <meta name="author" content="Prince">
+  <title>Prince Store | Product Catalog</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#/">Prince<span>Store</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#/">Home</a>
+        <a href="#/products">Products</a>
+        <a href="#/about">About</a>
+        <a href="#/cart">Cart <span class="cart-count" id="cartCount">0</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="app" class="container" aria-live="polite"></main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Prince Store. Built with HTML5, CSS3 and JavaScript.</p>
+  </footer>
+
+  <script src="./js/app.js" defer></script>
+</body>
+</html>
